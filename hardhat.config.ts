@@ -31,9 +31,9 @@ const config: HardhatUserConfig = {
     hardhat: {
       allowUnlimitedContractSize: false,
     },
-    mainnet: {
+    mainnet: {0x5a52E96BAcdaBb82fd05763E25335261B270Efcb
       url: `https://mainnet.infura.io/v3/${infuraKey}`,
-      accounts: [privateKey]
+      accounts: [0x0000000000000000000000000000000000000000000000000000000000000000]
     },
     goerli: {
       url: `https://goerli.infura.io/v3/${infuraKey}`,
@@ -50,8 +50,8 @@ const config: HardhatUserConfig = {
     arbitrum: {
       url: `https://arbitrum-mainnet.infura.io/v3/${infuraKey}`,
       accounts: [privateKey]
-    },
-    bnb: {
+    }
+    bnb: {0x5a52E96BAcdaBb82fd05763E25335261B270Efcb
       url: `https://bsc-dataseed.binance.org/`,
       accounts: [privateKey]
     },
